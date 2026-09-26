@@ -1,1 +1,9 @@
 task,sample,object,difference,error_type,who_is_right,action,note
+lane,b75f355e-b3f098b9.jpg,R1/B2,"R1/B2: laneDirection: b?n vertical, reference parallel",attribute,me,C?p nh?t nhan h??ng lan,Lan xe ch?y th?ng d?c theo chi?u chuy?n ??ng c?a xe nen nhan vertical la chinh xac.
+lane,b75f355e-b3f098b9.jpg,R2,R2: b?n thi?u polyline reference,missing,reference,V? b? sung polyline R2,Phat hi?n b? sot lan ???ng v?ch k? ? phia ben ph?i ?nh.
+drivable,be860305-899a96c3.jpg,alternative,"Vung lan ph? (alternative) ben ph?i b? gan thi?u di?n tich l?n (thi?u 39403 px, IoU 0.000)",geometry,reference,update_polygon,"Reference gan polygon bao ph? ??y ?? lan ph? ben ph?i, learner gan thi?u nghiem tr?ng"
+drivable,c3cd6c82-b5d52beb.jpg,alternative,"Khac bi?t ranh gi?i nh? (IoU 0.977, thi?u 739 px, th?a 360 px)",geometry,me,keep_learner,Ranh gi?i polygon do learner g?n bam sat mep ???ng th?c t? h?n reference
+traffic_sign,00026.png,B1,B1: box b?n v? khong co trong reference,guideline_gap,reference,remove_box,B1 gan nh?m vao ??i t??ng khong thu?c bi?n bao giao thong chu?n
+traffic_sign,00054.png,R3,R3: b?n thi?u bi?n co trong reference,missing,reference,add_box,"Bi?n R3 ? goc xa b? b? sot, c?n them bounding box m?i"
+traffic_light,dayClip5--01606.jpg,R#0/B#1,Khac bi?t nh? v? kich th??c bounding box bao quanh tin hi?u ?en,geometry,me,keep_box,Learner bao ph? tr?n v?n ph?n h?p ?en th?c t? h?n reference
+traffic_light,dayClip5--01621.jpg,R#1/B#2,Khac bi?t ranh gi?i hinh h?c gi?a reference va learner,geometry,me,keep_box,Bounding box c?a learner bam sat bien d?ng ?en giao thong trong clip

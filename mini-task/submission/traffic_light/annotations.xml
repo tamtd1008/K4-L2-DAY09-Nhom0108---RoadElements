@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>14</id>
+      <size>30</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-26 09:35:12.425801+00:00</created>
+      <updated>2026-09-26 10:53:29.614306+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>29</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>14</id>
+          <start>0</start>
+          <stop>29</stop>
+          <url>http://localhost:8080/api/jobs/14/dataset/export/api/jobs/14</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>admin</username>
+        <email>tamtd1008@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>traffic_light</name>
+          <color>#F9A825</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>state</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+red
+yellow
+green
+off
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>relevance</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+relevant
+not_relevant
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>pictogram</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+circle
+arrow_left
+arrow_straight
+arrow_right
+other
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>needs_review</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-09-26 10:54:12.786094+00:00</dumped>
+  </meta>
+  <track id="0" label="traffic_light" source="manual">
+    <box frame="0" keyframe="1" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="1" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="2" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="3" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="4" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="5" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="6" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="7" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="8" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="9" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="10" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="11" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="15" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="19" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="730.85" ytl="127.36" xbr="760.37" ybr="201.92" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">arrow_left</attribute>
+    </box>
+  </track>
+  <track id="1" label="traffic_light" source="manual">
+    <box frame="0" keyframe="1" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="1" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="2" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="3" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="4" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="5" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="6" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="7" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="8" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="9" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="10" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="11" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="15" keyframe="1" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="19" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="925.03" ytl="136.68" xbr="957.65" ybr="211.24" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="pictogram">circle</attribute>
+      <attribute name="relevance">relevant</attribute>
+    </box>
+  </track>
+  <track id="2" label="traffic_light" source="manual">
+    <box frame="0" keyframe="1" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="1" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="2" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="3" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="4" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="5" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="6" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="7" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="8" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="9" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="10" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="11" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">red</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="15" keyframe="1" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="19" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="1125.42" ytl="178.62" xbr="1168.91" ybr="251.63" z_order="0">
+      <attribute name="state">green</attribute>
+      <attribute name="needs_review">false</attribute>
+      <attribute name="relevance">relevant</attribute>
+      <attribute name="pictogram">circle</attribute>
+    </box>
+  </track>
+</annotations>

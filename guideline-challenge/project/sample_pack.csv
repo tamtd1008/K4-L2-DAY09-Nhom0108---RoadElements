@@ -1,1 +1,13 @@
 sample_id,split,tags,reason
+BDD01,example,normal,
+BDD02,example,normal,
+BDD03,example,normal,
+BDD04,calibration,normal,
+BDD05,calibration,normal,
+BDD06,calibration,normal,
+BDD07,calibration,normal,
+BDD08,calibration,normal,
+BDD09,blind,normal,
+BDD10,blind,edge,
+BDD11,blind,edge,
+BDD12,blind,critical,

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>12</id>
+      <size>5</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-26 09:33:47.432418+00:00</created>
+      <updated>2026-09-26 09:46:55.199958+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>4</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>12</id>
+          <start>0</start>
+          <stop>4</stop>
+          <url>http://localhost:8080/api/jobs/12/dataset/export/api/jobs/12</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>admin</username>
+        <email>tamtd1008@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>drivable_area</name>
+          <color>#00A65A</color>
+          <type>polygon</type>
+          <attributes>
+            <attribute>
+              <name>areaType</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+direct
+alternative</values>
+            </attribute>
+            <attribute>
+              <name>needs_review</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>image_context</name>
+          <color>#AA00FF</color>
+          <type>tag</type>
+          <attributes>
+            <attribute>
+              <name>weather</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+clear
+partly cloudy
+overcast
+rainy
+snowy
+foggy
+undefined</values>
+            </attribute>
+            <attribute>
+              <name>timeofday</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+daytime
+dawn/dusk
+night
+undefined</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-09-26 09:47:02.770340+00:00</dumped>
+  </meta>
+  <image id="0" name="bb5cc516-c98d1fbe.jpg" width="1280" height="720">
+    <polygon label="drivable_area" source="manual" occluded="0" points="738.47,417.03;612.90,298.40;518.27,298.19;439.51,411.32" z_order="0">
+      <attribute name="areaType">direct</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_area" source="manual" occluded="0" points="1280.00,422.97;754.78,413.53;630.12,299.36;856.14,291.20;863.13,318.12;940.02,340.25;1121.77,335.59;1280.00,356.53" z_order="0">
+      <attribute name="areaType">alternative</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_area" source="manual" occluded="0" points="499.63,304.14;357.50,300.52;250.31,363.44;247.98,389.07;416.91,414.70" z_order="0">
+      <attribute name="areaType">alternative</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">rainy</attribute>
+      <attribute name="timeofday">daytime</attribute>
+    </tag>
+  </image>
+  <image id="1" name="be860305-899a96c3.jpg" width="1280" height="720">
+    <polygon label="drivable_area" source="manual" occluded="0" points="548.56,514.89;628.37,360.99;654.82,362.04;787.05,433.34;932.91,530.39" z_order="0">
+      <attribute name="areaType">direct</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_area" source="manual" occluded="0" points="956.33,535.86;1280.00,558.10;1280.00,505.52;1033.22,448.60;928.37,455.59;704.68,370.43;666.23,361.22;793.22,429.96" z_order="0">
+      <attribute name="areaType">alternative</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">clear</attribute>
+      <attribute name="timeofday">night</attribute>
+    </tag>
+  </image>
+  <image id="2" name="c068a67b-03b6e200.jpg" width="1280" height="720">
+    <polygon label="drivable_area" source="manual" occluded="0" points="977.30,718.89;760.60,411.20;646.43,413.53;299.24,682.78;602.16,682.78" z_order="0">
+      <attribute name="areaType">direct</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_area" source="manual" occluded="0" points="265.50,683.90;669.73,390.23;675.44,369.38;1.10,582.70;0.00,702.70" z_order="0">
+      <attribute name="areaType">alternative</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">clear</attribute>
+      <attribute name="timeofday">daytime</attribute>
+    </tag>
+  </image>
+  <image id="3" name="c3cd6c82-b5d52beb.jpg" width="1280" height="720">
+    <polygon label="drivable_area" source="manual" occluded="0" points="487.98,579.09;567.20,377.42;734.97,376.25;1160.21,563.94;830.50,567.44" z_order="0">
+      <attribute name="areaType">direct</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_area" source="manual" occluded="0" points="1277.88,598.89;683.71,348.41;693.03,335.59;971.48,390.23;1280.00,456.46;1280.00,512.83" z_order="0">
+      <attribute name="areaType">alternative</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">clear</attribute>
+      <attribute name="timeofday">daytime</attribute>
+    </tag>
+  </image>
+  <image id="4" name="c723ad21-efed33e5.jpg" width="1280" height="720">
+    <polygon label="drivable_area" source="manual" occluded="0" points="285.26,581.42;236.33,492.76;139.63,420.52;61.57,389.07;171.09,379.75;178.08,358.89;334.19,371.59;338.85,413.53;482.16,452.10;697.69,429.96;1075.17,514.89;1277.88,570.93;1280.00,655.59;1280.00,664.10;956.33,604.60;595.17,572.10" z_order="0">
+      <attribute name="areaType">direct</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">clear</attribute>
+      <attribute name="timeofday">daytime</attribute>
+    </tag>
+  </image>
+</annotations>

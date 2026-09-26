@@ -1,0 +1,24 @@
+task: traffic_light
+sha256: 15b66dd734521660e2e517cddcb39060f5e7d9fd47bbb30076b9acfbe9e454de
+code: 15B6-6DD7
+locked_at: 2026-09-26T17:55:33+07:00
+shapes: traffic_light=90
+cvat_owner: admin
+cvat_export: job 14
+cvat_created: 2026-09-26 09:35:12.425801+00:00
+cvat_dumped: 2026-09-26 10:54:12.786094+00:00
+shape_sources: manual=3
+relock_count: 1
+history:
+  --- previous lock ---
+  task: traffic_light
+  sha256: 65afcf1a348f500d7fd30abeb2a4f0e23a0153afecabf5d4bcfeea51f17d0e32
+  code: 65AF-CF1A
+  locked_at: 2026-09-26T17:49:35+07:00
+  shapes: traffic_light=90
+  cvat_owner: admin
+  cvat_export: job 14
+  cvat_created: 2026-09-26 09:35:12.425801+00:00
+  cvat_dumped: 2026-09-26 10:48:41.579718+00:00
+  shape_sources: manual=90
+  relock_count: 0

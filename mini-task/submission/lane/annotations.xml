@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>11</id>
+      <size>6</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-26 07:55:44.065955+00:00</created>
+      <updated>2026-09-26 08:23:58.301395+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>5</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>11</id>
+          <start>0</start>
+          <stop>5</stop>
+          <url>http://localhost:8080/api/jobs/11/dataset/export/api/jobs/11</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>admin</username>
+        <email>tamtd1008@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>lane_marking</name>
+          <color>#FF6F00</color>
+          <type>polyline</type>
+          <attributes>
+            <attribute>
+              <name>laneTypes</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+crosswalk
+double other
+double white
+double yellow
+road curb
+single other
+single white
+single yellow</values>
+            </attribute>
+            <attribute>
+              <name>laneStyle</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+solid
+dashed</values>
+            </attribute>
+            <attribute>
+              <name>laneDirection</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+parallel
+vertical</values>
+            </attribute>
+            <attribute>
+              <name>visibility</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>visible</default_value>
+              <values>visible
+partially_occluded
+faded
+truncated</values>
+            </attribute>
+            <attribute>
+              <name>needs_review</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>image_context</name>
+          <color>#AA00FF</color>
+          <type>tag</type>
+          <attributes>
+            <attribute>
+              <name>weather</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+clear
+partly cloudy
+overcast
+rainy
+snowy
+foggy
+undefined</values>
+            </attribute>
+            <attribute>
+              <name>timeofday</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+daytime
+dawn/dusk
+night
+undefined</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-09-26 08:24:05.278152+00:00</dumped>
+  </meta>
+  <image id="0" name="b75f355e-b3f098b9.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="358.80,563.58;573.65,410.10" z_order="0">
+      <attribute name="laneTypes">double yellow</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="328.12,566.67;570.07,408.70" z_order="0">
+      <attribute name="laneTypes">double yellow</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">clear</attribute>
+      <attribute name="timeofday">daytime</attribute>
+    </tag>
+  </image>
+  <image id="1" name="bb890202-d9d48310.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="171.31,388.51;453.08,311.36" z_order="0">
+      <attribute name="laneTypes">single white</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="250.61,549.46;517.65,323.21" z_order="0">
+      <attribute name="laneTypes">single white</attribute>
+      <attribute name="laneStyle">dashed</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="704.60,403.98;625.88,331.00;609.55,311.63" z_order="0">
+      <attribute name="laneTypes">single white</attribute>
+      <attribute name="laneStyle">dashed</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1280.00,414.24;865.05,332.02;842.80,333.93;818.64,334.21;763.47,331.74" z_order="0">
+      <attribute name="laneTypes">road curb</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1280.00,472.30;762.35,332.02;703.60,316.97;681.75,310.17;661.35,301.91;651.15,295.11;648.14,292.44;647.56,287.83;648.82,284.43" z_order="0">
+      <attribute name="laneTypes">road curb</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">clear</attribute>
+      <attribute name="timeofday">daytime</attribute>
+    </tag>
+  </image>
+  <image id="2" name="c0f739d8-6ff93525.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="30.12,583.75;452.45,395.83;516.29,366.12;537.26,355.17" z_order="0">
+      <attribute name="laneTypes">single yellow</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="890.29,605.92;619.37,356.97;821.59,368.22;1017.67,407.30" z_order="0">
+      <attribute name="laneTypes">road curb</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">partly cloudy</attribute>
+      <attribute name="timeofday">daytime</attribute>
+    </tag>
+  </image>
+  <image id="3" name="c1589305-200e315b.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="415.21,448.26;297.57,546.14" z_order="0">
+      <attribute name="laneTypes">single white</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="964.79,524.59;837.28,439.28" z_order="0">
+      <attribute name="laneTypes">single white</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="570.43,328.62;678.86,326.98;671.36,319.49;576.05,321.13;570.20,328.39" z_order="0">
+      <attribute name="laneTypes">crosswalk</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">parallel</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1193.80,392.89;442.63,397.92;494.99,357.65;1195.81,354.62" z_order="0">
+      <attribute name="laneTypes">crosswalk</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">parallel</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="41.64,450.05;1195.00,435.90" z_order="0">
+      <attribute name="laneTypes">single white</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">parallel</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">clear</attribute>
+      <attribute name="timeofday">daytime</attribute>
+    </tag>
+  </image>
+  <image id="4" name="c3cd6c82-b5d52beb.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="467.80,584.20;562.15,369.63;562.15,346.37;556.31,335.29;546.24,328.75" z_order="0">
+      <attribute name="laneTypes">single yellow</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1280.00,608.00;1027.40,496.25;778.78,388.37;703.17,359.71" z_order="0">
+      <attribute name="laneTypes">single white</attribute>
+      <attribute name="laneStyle">dashed</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1280.00,450.89;822.47,356.68;729.26,341.18;772.37,341.88" z_order="0">
+      <attribute name="laneTypes">road curb</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1268.41,428.53;1097.23,411.42" z_order="0">
+      <attribute name="laneTypes">road curb</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">clear</attribute>
+      <attribute name="timeofday">daytime</attribute>
+    </tag>
+  </image>
+  <image id="5" name="c95fecc3-41401a5f.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="279.81,665.36;431.86,570.71;606.26,457.13;639.18,436.29;655.39,424.91;661.03,421.48;665.16,419.27" z_order="0">
+      <attribute name="laneTypes">single white</attribute>
+      <attribute name="laneStyle">dashed</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1013.86,647.74;966.54,609.48;858.79,531.24;811.37,498.11;784.08,477.27;768.17,464.48;756.29,455.82;746.02,448.47;738.16,443.84;710.17,422.99;707.55,418.87;709.47,415.54;717.72,412.82;728.60,411.62;744.41,410.61" z_order="0">
+      <attribute name="laneTypes">single white</attribute>
+      <attribute name="laneStyle">dashed</attribute>
+      <attribute name="laneDirection">vertical</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <tag label="image_context" source="manual">
+      <attribute name="weather">overcast</attribute>
+      <attribute name="timeofday">daytime</attribute>
+    </tag>
+  </image>
+</annotations>

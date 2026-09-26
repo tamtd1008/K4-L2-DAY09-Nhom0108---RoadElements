@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>13</id>
+      <size>7</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-26 09:34:33.511241+00:00</created>
+      <updated>2026-09-26 10:12:04.088989+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>6</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>13</id>
+          <start>0</start>
+          <stop>6</stop>
+          <url>http://localhost:8080/api/jobs/13/dataset/export/api/jobs/13</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>admin</username>
+        <email>tamtd1008@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>traffic_sign</name>
+          <color>#1565C0</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>sign_family</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+prohibitory
+mandatory
+danger
+other
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>sign_class</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+00 speed limit 20
+01 speed limit 30
+02 speed limit 50
+03 speed limit 60
+04 speed limit 70
+05 speed limit 80
+06 restriction ends 80
+07 speed limit 100
+08 speed limit 120
+09 no overtaking
+10 no overtaking (trucks)
+11 priority at next intersection
+12 priority road
+13 give way
+14 stop
+15 no traffic both ways
+16 no trucks
+17 no entry
+18 danger
+19 bend left
+20 bend right
+21 bend
+22 uneven road
+23 slippery road
+24 road narrows
+25 construction
+26 traffic signal
+27 pedestrian crossing
+28 school crossing
+29 cycles crossing
+30 snow
+31 animals
+32 restriction ends
+33 go right
+34 go left
+35 go straight
+36 go right or straight
+37 go left or straight
+38 keep right
+39 keep left
+40 roundabout
+41 restriction ends (overtaking)
+42 restriction ends (overtaking (trucks))
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>readable</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>uncertain</default_value>
+              <values>uncertain
+yes
+no</values>
+            </attribute>
+            <attribute>
+              <name>truncated</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>relevant_to_ego</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>unknown</default_value>
+              <values>unknown
+yes
+no</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-09-26 10:12:09.480166+00:00</dumped>
+  </meta>
+  <image id="0" name="00026.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="294.92" ytl="344.37" xbr="358.35" ybr="412.98" z_order="0">
+      <attribute name="sign_family">mandatory</attribute>
+      <attribute name="sign_class">27 pedestrian crossing</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="456.07" ytl="413.10" xbr="490.75" ybr="448.91" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">01 speed limit 30</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+  </image>
+  <image id="1" name="00054.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="457.44" ytl="520.20" xbr="475.62" ybr="538.86" z_order="0">
+      <attribute name="sign_family">mandatory</attribute>
+      <attribute name="sign_class">38 keep right</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="1114.56" ytl="439.13" xbr="1151.40" ybr="471.64" z_order="0">
+      <attribute name="sign_family">danger</attribute>
+      <attribute name="sign_class">27 pedestrian crossing</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="1118.17" ytl="474.53" xbr="1142.73" ybr="499.81" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">00 speed limit 20</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="1120.34" ytl="504.14" xbr="1147.79" ybr="518.40" z_order="0">
+      <attribute name="sign_family">other</attribute>
+      <attribute name="sign_class">unknown</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+  </image>
+  <image id="2" name="00073.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="724.68" ytl="432.68" xbr="752.89" ybr="456.06" z_order="0">
+      <attribute name="sign_family">danger</attribute>
+      <attribute name="sign_class">31 animals</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="729.11" ytl="458.07" xbr="748.05" ybr="475.40" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">02 speed limit 50</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="729.29" ytl="476.52" xbr="748.86" ybr="496.99" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">09 no overtaking</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="426.03" ytl="427.79" xbr="452.12" ybr="454.55" z_order="0">
+      <attribute name="sign_family">danger</attribute>
+      <attribute name="sign_class">31 animals</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="432.33" ytl="455.45" xbr="451.89" ybr="474.56" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">02 speed limit 50</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="432.78" ytl="475.24" xbr="454.59" ybr="495.48" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">09 no overtaking</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+  </image>
+  <image id="3" name="00088.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="413.25" ytl="440.09" xbr="432.60" ybr="463.19" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">08 speed limit 120</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="412.60" ytl="466.94" xbr="435.10" ybr="488.16" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">09 no overtaking</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="960.11" ytl="439.47" xbr="980.09" ybr="463.81" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">08 speed limit 120</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="959.49" ytl="465.06" xbr="980.71" ybr="488.16" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">09 no overtaking</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+  </image>
+  <image id="4" name="00108.png" width="1360" height="800">
+  </image>
+  <image id="5" name="00206.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="828.39" ytl="470.68" xbr="846.49" ybr="493.15" z_order="0">
+      <attribute name="sign_family">mandatory</attribute>
+      <attribute name="sign_class">38 keep right</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="55.44" ytl="7.80" xbr="159.00" ybr="103.59" z_order="0">
+      <attribute name="sign_family">other</attribute>
+      <attribute name="sign_class">13 give way</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="60.62" ytl="111.36" xbr="138.29" ybr="178.67" z_order="0">
+      <attribute name="sign_family">mandatory</attribute>
+      <attribute name="sign_class">34 go left</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="1147.99" ytl="120.42" xbr="1226.96" ybr="194.21" z_order="0">
+      <attribute name="sign_family">other</attribute>
+      <attribute name="sign_class">13 give way</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="1160.94" ytl="198.09" xbr="1226.96" ybr="261.52" z_order="0">
+      <attribute name="sign_family">mandatory</attribute>
+      <attribute name="sign_class">33 go right</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+  </image>
+  <image id="6" name="00223.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="818.03" ytl="335.40" xbr="858.61" ybr="372.86" z_order="0">
+      <attribute name="sign_family">prohibitory</attribute>
+      <attribute name="sign_class">01 speed limit 30</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="818.76" ytl="375.12" xbr="860.34" ybr="394.46" z_order="0">
+      <attribute name="sign_family">other</attribute>
+      <attribute name="sign_class">unknown</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="826.50" ytl="393.49" xbr="854.54" ybr="410.89" z_order="0">
+      <attribute name="sign_family">other</attribute>
+      <attribute name="sign_class">unknown</attribute>
+      <attribute name="readable">yes</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">yes</attribute>
+    </box>
+  </image>
+</annotations>

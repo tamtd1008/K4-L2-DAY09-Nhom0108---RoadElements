@@ -1,0 +1,11 @@
+task: drivable
+sha256: b6b5f0dc373adaf6d31d5853d8cbfc15994c0b2dcf3ca8c8ba825e841bdced9c
+code: B6B5-F0DC
+locked_at: 2026-09-26T16:49:39+07:00
+shapes: drivable_area=10, image_context=5
+cvat_owner: admin
+cvat_export: job 12
+cvat_created: 2026-09-26 09:33:47.432418+00:00
+cvat_dumped: 2026-09-26 09:47:02.770340+00:00
+shape_sources: manual=15
+relock_count: 0
