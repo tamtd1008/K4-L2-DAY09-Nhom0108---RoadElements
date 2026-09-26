@@ -1,0 +1,85 @@
+sample_id,file,source,original_name,sequence,width,height,weather,timeofday,scene
+BDD01,data/bdd100k/BDD01.jpg,bdd100k,bb890202-d9d48310.jpg,,1280,720,partly cloudy,daytime,highway
+BDD02,data/bdd100k/BDD02.jpg,bdd100k,c1589305-200e315b.jpg,,1280,720,partly cloudy,daytime,city street
+BDD03,data/bdd100k/BDD03.jpg,bdd100k,c3cd6c82-b5d52beb.jpg,,1280,720,overcast,daytime,highway
+BDD04,data/bdd100k/BDD04.jpg,bdd100k,b75f355e-b3f098b9.jpg,,1280,720,partly cloudy,daytime,city street
+BDD05,data/bdd100k/BDD05.jpg,bdd100k,c0f739d8-6ff93525.jpg,,1280,720,partly cloudy,daytime,highway
+BDD06,data/bdd100k/BDD06.jpg,bdd100k,c95fecc3-41401a5f.jpg,,1280,720,overcast,daytime,highway
+BDD07,data/bdd100k/BDD07.jpg,bdd100k,b2715214-d38332ea.jpg,,1280,720,clear,daytime,highway
+BDD08,data/bdd100k/BDD08.jpg,bdd100k,b48c7b5f-49fec7f1.jpg,,1280,720,clear,daytime,highway
+BDD09,data/bdd100k/BDD09.jpg,bdd100k,fe189115-c31cac5a.jpg,,1280,720,overcast,daytime,highway
+BDD10,data/bdd100k/BDD10.jpg,bdd100k,c068a67b-03b6e200.jpg,,1280,720,partly cloudy,daytime,city street
+BDD11,data/bdd100k/BDD11.jpg,bdd100k,c281c4a6-40432e1d.jpg,,1280,720,overcast,daytime,city street
+BDD12,data/bdd100k/BDD12.jpg,bdd100k,c3009124-01540ddb.jpg,,1280,720,overcast,daytime,city street
+BDD13,data/bdd100k/BDD13.jpg,bdd100k,c5bbf929-8c3d6c80.jpg,,1280,720,clear,daytime,city street
+BDD14,data/bdd100k/BDD14.jpg,bdd100k,ca194104-1aa2aa9a.jpg,,1280,720,overcast,daytime,highway
+BDD15,data/bdd100k/BDD15.jpg,bdd100k,b7d277b3-a6f32171.jpg,,1280,720,clear,daytime,city street
+BDD16,data/bdd100k/BDD16.jpg,bdd100k,c723ad21-efed33e5.jpg,,1280,720,overcast,daytime,highway
+BDD17,data/bdd100k/BDD17.jpg,bdd100k,bb5cc516-c98d1fbe.jpg,,1280,720,rainy,daytime,city street
+BDD18,data/bdd100k/BDD18.jpg,bdd100k,be860305-899a96c3.jpg,,1280,720,clear,night,city street
+BDD19,data/bdd100k/BDD19.jpg,bdd100k,c917201f-5bbb8087.jpg,,1280,720,overcast,daytime,highway
+BDD20,data/bdd100k/BDD20.jpg,bdd100k,bfe2b817-505676ef.jpg,,1280,720,overcast,daytime,residential
+BDD21,data/bdd100k/BDD21.jpg,bdd100k,b37fcc2f-fa9beaf4.jpg,,1280,720,overcast,daytime,highway
+BDD22,data/bdd100k/BDD22.jpg,bdd100k,b57b9ee8-e2a6d34d.jpg,,1280,720,overcast,dawn/dusk,highway
+BDD23,data/bdd100k/BDD23.jpg,bdd100k,bacbfdaa-837ca39c.jpg,,1280,720,snowy,daytime,residential
+BDD24,data/bdd100k/BDD24.jpg,bdd100k,bbf7e280-19aed161.jpg,,1280,720,snowy,daytime,city street
+BDD25,data/bdd100k/BDD25.jpg,bdd100k,ba79a103-c606265f.jpg,,1280,720,clear,dawn/dusk,city street
+BDD26,data/bdd100k/BDD26.jpg,bdd100k,bbb5073b-401c9a78.jpg,,1280,720,clear,night,city street
+GTS01,data/gtsdb/GTS01.png,gtsdb,00073.png,,1360,800,,,
+GTS02,data/gtsdb/GTS02.png,gtsdb,00206.png,,1360,800,,,
+GTS03,data/gtsdb/GTS03.png,gtsdb,00054.png,,1360,800,,,
+GTS04,data/gtsdb/GTS04.png,gtsdb,00088.png,,1360,800,,,
+GTS05,data/gtsdb/GTS05.png,gtsdb,00026.png,,1360,800,,,
+GTS06,data/gtsdb/GTS06.png,gtsdb,00223.png,,1360,800,,,
+GTS07,data/gtsdb/GTS07.png,gtsdb,00108.png,,1360,800,,,
+GTS08,data/gtsdb/GTS08.png,gtsdb,00367.png,,1360,800,,,
+GTS09,data/gtsdb/GTS09.png,gtsdb,00497.png,,1360,800,,,
+GTS10,data/gtsdb/GTS10.png,gtsdb,00275.png,,1360,800,,,
+GTS11,data/gtsdb/GTS11.png,gtsdb,00155.png,,1360,800,,,
+GTS12,data/gtsdb/GTS12.png,gtsdb,00160.png,,1360,800,,,
+GTS13,data/gtsdb/GTS13.png,gtsdb,00509.png,,1360,800,,,
+GTS14,data/gtsdb/GTS14.png,gtsdb,00564.png,,1360,800,,,
+GTS15,data/gtsdb/GTS15.png,gtsdb,00302.png,,1360,800,,,
+GTS16,data/gtsdb/GTS16.png,gtsdb,00058.png,,1360,800,,,
+GTS17,data/gtsdb/GTS17.png,gtsdb,00096.png,,1360,800,,,
+GTS18,data/gtsdb/GTS18.png,gtsdb,00011.png,,1360,800,,,
+GTS19,data/gtsdb/GTS19.png,gtsdb,00004.png,,1360,800,,,
+GTS20,data/gtsdb/GTS20.png,gtsdb,00001.png,,1360,800,,,
+GTS21,data/gtsdb/GTS21.png,gtsdb,00002.png,,1360,800,,,
+GTS22,data/gtsdb/GTS22.png,gtsdb,00024.png,,1360,800,,,
+GTS23,data/gtsdb/GTS23.png,gtsdb,00074.png,,1360,800,,,
+GTS24,data/gtsdb/GTS24.png,gtsdb,00116.png,,1360,800,,,
+GTS25,data/gtsdb/GTS25.png,gtsdb,00008.png,,1360,800,,,
+GTS26,data/gtsdb/GTS26.png,gtsdb,00014.png,,1360,800,,,
+GTS27,data/gtsdb/GTS27.png,gtsdb,00017.png,,1360,800,,,
+GTS28,data/gtsdb/GTS28.png,gtsdb,00139.png,,1360,800,,,
+LISA01,data/lisa/LISA01.jpg,lisa,dayClip5--01606.jpg,dayClip5 frame 1606,1280,960,,,
+LISA02,data/lisa/LISA02.jpg,lisa,dayClip5--01607.jpg,dayClip5 frame 1607,1280,960,,,
+LISA03,data/lisa/LISA03.jpg,lisa,dayClip5--01608.jpg,dayClip5 frame 1608,1280,960,,,
+LISA04,data/lisa/LISA04.jpg,lisa,dayClip5--01609.jpg,dayClip5 frame 1609,1280,960,,,
+LISA05,data/lisa/LISA05.jpg,lisa,dayClip5--01610.jpg,dayClip5 frame 1610,1280,960,,,
+LISA06,data/lisa/LISA06.jpg,lisa,dayClip5--01611.jpg,dayClip5 frame 1611,1280,960,,,
+LISA07,data/lisa/LISA07.jpg,lisa,dayClip5--01612.jpg,dayClip5 frame 1612,1280,960,,,
+LISA08,data/lisa/LISA08.jpg,lisa,dayClip5--01613.jpg,dayClip5 frame 1613,1280,960,,,
+LISA09,data/lisa/LISA09.jpg,lisa,dayClip5--01614.jpg,dayClip5 frame 1614,1280,960,,,
+LISA10,data/lisa/LISA10.jpg,lisa,dayClip5--01615.jpg,dayClip5 frame 1615,1280,960,,,
+LISA11,data/lisa/LISA11.jpg,lisa,dayClip5--01616.jpg,dayClip5 frame 1616,1280,960,,,
+LISA12,data/lisa/LISA12.jpg,lisa,dayClip5--01617.jpg,dayClip5 frame 1617,1280,960,,,
+LISA13,data/lisa/LISA13.jpg,lisa,dayClip5--01618.jpg,dayClip5 frame 1618,1280,960,,,
+LISA14,data/lisa/LISA14.jpg,lisa,dayClip5--01619.jpg,dayClip5 frame 1619,1280,960,,,
+LISA15,data/lisa/LISA15.jpg,lisa,dayClip5--01620.jpg,dayClip5 frame 1620,1280,960,,,
+LISA16,data/lisa/LISA16.jpg,lisa,dayClip5--01621.jpg,dayClip5 frame 1621,1280,960,,,
+LISA17,data/lisa/LISA17.jpg,lisa,dayClip5--01622.jpg,dayClip5 frame 1622,1280,960,,,
+LISA18,data/lisa/LISA18.jpg,lisa,dayClip5--01623.jpg,dayClip5 frame 1623,1280,960,,,
+LISA19,data/lisa/LISA19.jpg,lisa,dayClip5--01624.jpg,dayClip5 frame 1624,1280,960,,,
+LISA20,data/lisa/LISA20.jpg,lisa,dayClip5--01625.jpg,dayClip5 frame 1625,1280,960,,,
+LISA21,data/lisa/LISA21.jpg,lisa,dayClip5--01626.jpg,dayClip5 frame 1626,1280,960,,,
+LISA22,data/lisa/LISA22.jpg,lisa,dayClip5--01627.jpg,dayClip5 frame 1627,1280,960,,,
+LISA23,data/lisa/LISA23.jpg,lisa,dayClip5--01628.jpg,dayClip5 frame 1628,1280,960,,,
+LISA24,data/lisa/LISA24.jpg,lisa,dayClip5--01629.jpg,dayClip5 frame 1629,1280,960,,,
+LISA25,data/lisa/LISA25.jpg,lisa,dayClip5--01630.jpg,dayClip5 frame 1630,1280,960,,,
+LISA26,data/lisa/LISA26.jpg,lisa,dayClip5--01631.jpg,dayClip5 frame 1631,1280,960,,,
+LISA27,data/lisa/LISA27.jpg,lisa,dayClip5--01632.jpg,dayClip5 frame 1632,1280,960,,,
+LISA28,data/lisa/LISA28.jpg,lisa,dayClip5--01633.jpg,dayClip5 frame 1633,1280,960,,,
+LISA29,data/lisa/LISA29.jpg,lisa,dayClip5--01634.jpg,dayClip5 frame 1634,1280,960,,,
+LISA30,data/lisa/LISA30.jpg,lisa,dayClip5--01635.jpg,dayClip5 frame 1635,1280,960,,,

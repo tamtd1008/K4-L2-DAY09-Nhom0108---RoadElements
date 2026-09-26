@@ -1,0 +1,16 @@
+NGUỒN VÀ GIẤY PHÉP
+
+Tên: BDD100K (val) — third-party mirror dgural/bdd100k
+Giấy phép: BDD100K License (UC Berkeley): educational, research, not-for-profit use; giữ copyright notice. Thẻ 'bsd' trên HF card không phải license gốc.
+Trích dẫn: Yu et al., BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning, CVPR 2020
+Trang chủ: https://bdd-data.berkeley.edu/
+
+Tên: LISA Traffic Light Dataset — YOLO export dronefreak/LISA-Traffic-Lights
+Giấy phép: CC BY-NC-SA 4.0 (LISA, UC San Diego). Phi thương mại, ghi nguồn, chia sẻ cùng giấy phép.
+Trích dẫn: Jensen et al., Vision for Looking at Traffic Lights: Issues, Survey, and Perspectives, IEEE T-ITS 2016; Philipsen et al., ITSC 2015
+Trang chủ: https://www.kaggle.com/datasets/mbornoe/lisa-traffic-light-dataset
+
+Tên: German Traffic Sign Detection Benchmark (GTSDB) — FullIJCNN2013.zip
+Giấy phép: ReadMe.txt: 'You are free to use this data package for any purpose you like'; trích dẫn paper nếu công bố.
+Trích dẫn: Houben et al., Detection of Traffic Signs in Real-World Images: The German Traffic Sign Detection Benchmark, IJCNN 2013
+Trang chủ: https://benchmark.ini.rub.de/gtsdb_dataset.html

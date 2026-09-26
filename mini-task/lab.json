@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "_note": "Thiết kế lab 240' Day 9. Chỉ số core trỏ vào danh sách ảnh trong config/sources.json. Ngưỡng ghép cặp là số của công cụ so sánh, không phải ngưỡng chấm.",
+  "task_order": [
+    "lane",
+    "drivable",
+    "traffic_sign",
+    "traffic_light"
+  ],
+  "identical_vertex_px": 0.5,
+  "tasks": {
+    "lane": {
+      "example": "bb890202",
+      "core": [
+        0,
+        2,
+        4,
+        7,
+        12,
+        14
+      ],
+      "export_format": "CVAT for images 1.1",
+      "compare": {
+        "method": "polyline",
+        "label": "lane_marking",
+        "match_mean_px": 20,
+        "samples_per_line": 50,
+        "attributes": [
+          "laneTypes",
+          "laneStyle",
+          "laneDirection"
+        ]
+      },
+      "tag": {
+        "label": "image_context",
+        "attributes": [
+          "weather",
+          "timeofday"
+        ]
+      }
+    },
+    "drivable": {
+      "core": [
+        0,
+        3,
+        7,
+        10,
+        12
+      ],
+      "export_format": "CVAT for images 1.1",
+      "compare": {
+        "method": "polygon_iou",
+        "label": "drivable_area",
+        "type_attribute": "areaType",
+        "same_shape_iou": 0.9,
+        "types": [
+          "direct",
+          "alternative"
+        ]
+      },
+      "tag": {
+        "label": "image_context",
+        "attributes": [
+          "weather",
+          "timeofday"
+        ]
+      }
+    },
+    "traffic_sign": {
+      "core": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "core_negatives": [
+        0
+      ],
+      "export_format": "CVAT for images 1.1",
+      "compare": {
+        "method": "box_iou",
+        "label": "traffic_sign",
+        "match_iou": 0.6,
+        "attributes": [
+          "sign_family",
+          "sign_class"
+        ],
+        "not_in_reference": [
+          "readable",
+          "truncated",
+          "relevant_to_ego"
+        ]
+      }
+    },
+    "traffic_light": {
+      "core": "all",
+      "export_format": "CVAT for video 1.1",
+      "compare": {
+        "method": "box_center",
+        "label": "traffic_light",
+        "match_center_ratio": 0.5,
+        "attributes": [
+          "state",
+          "pictogram"
+        ],
+        "not_in_reference": [
+          "relevance"
+        ]
+      }
+    }
+  },
+  "reference_notes": {
+    "lane": {
+      "designer_reference": "Reference lane do người thiết kế lab vẽ theo card 1 trên 6 ảnh core, KHÔNG phải GT chính thức BDD100K. Khác reference chưa chắc là bạn sai: ghi who_is_right và lý do.",
+      "dataset_gt": "Polyline lấy từ nhãn BDD100K chính thức (control point Bezier dùng như điểm polyline).",
+      "context_only": "Chưa có reference lane: chỉ so tag image_context. Phần polyline: làm nhóm thì so với bạn bằng make peer, làm cá nhân thì cold QC."
+    },
+    "drivable": {
+      "dataset_gt": "Polygon BDD100K đổi từ toạ độ normalized sang pixel 1280×720. BDD không có tag needs_review."
+    },
+    "traffic_sign": {
+      "dataset_gt": "Box GTSDB (43 class Đức). GT không có readable, truncated, relevant_to_ego — các attribute này tự đối chiếu bằng decision log."
+    },
+    "traffic_light": {
+      "dataset_gt": "Track LISA dayClip5, 30 frame. LISA không gán nhãn đèn nhỏ ở ngã tư phía xa và không có relevance — box không khớp GT chưa chắc là thừa."
+    }
+  },
+  "logs": {
+    "comparison_log.csv": {
+      "columns": [
+        "task",
+        "sample",
+        "object",
+        "difference",
+        "error_type",
+        "who_is_right",
+        "action",
+        "note"
+      ],
+      "required": [
+        "task",
+        "sample",
+        "difference",
+        "error_type",
+        "who_is_right",
+        "action"
+      ],
+      "enums": {
+        "error_type": [
+          "geometry",
+          "missing",
+          "class",
+          "attribute",
+          "temporal",
+          "guideline_gap"
+        ],
+        "who_is_right": [
+          "me",
+          "reference",
+          "guideline_gap"
+        ],
+        "action": [
+          "keep",
+          "rework",
+          "add_rule",
+          "escalate"
+        ]
+      },
+      "min_rows_per_task": 2
+    },
+    "decision_log.csv": {
+      "columns": [
+        "id",
+        "task",
+        "sample",
+        "case",
+        "rule",
+        "evidence",
+        "status",
+        "proposed_by",
+        "ratified_by",
+        "date"
+      ],
+      "required": [
+        "task",
+        "case",
+        "rule",
+        "evidence",
+        "status"
+      ],
+      "enums": {
+        "status": [
+          "proposed",
+          "ratified",
+          "escalated"
+        ]
+      },
+      "min_rows_per_task": 1,
+      "min_rows_total": 5
+    }
+  },
+  "documents": [
+    "sign_tree.md",
+    "light_log.md",
+    "qc_report.md",
+    "scale_100k.md"
+  ],
+  "todo_marker": "TODO"
+}

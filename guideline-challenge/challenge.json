@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "enums": {
+    "split": ["example", "calibration", "blind"],
+    "tags": [
+      "normal",
+      "edge",
+      "critical",
+      "ambiguity",
+      "negative",
+      "occlusion",
+      "small_far",
+      "low_visibility",
+      "temporal",
+      "conflict"
+    ],
+    "severity": ["critical", "major", "minor"],
+    "diagnosis": ["guideline_gap", "data_ambiguity", "execution_error"],
+    "action": ["revise_rule", "add_example", "add_escalation", "coaching", "no_change"]
+  },
+  "gts_weights": {
+    "decision": 0.6,
+    "critical": 0.2,
+    "geometry": 0.1,
+    "independence": 0.1
+  }
+}

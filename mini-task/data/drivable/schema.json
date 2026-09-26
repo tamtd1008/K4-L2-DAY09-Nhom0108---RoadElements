@@ -1,0 +1,65 @@
+[
+  {
+    "name": "drivable_area",
+    "color": "#00A65A",
+    "type": "polygon",
+    "attributes": [
+      {
+        "name": "areaType",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "__undefined__",
+        "values": [
+          "__undefined__",
+          "direct",
+          "alternative"
+        ]
+      },
+      {
+        "name": "needs_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": [
+          "false"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "image_context",
+    "color": "#AA00FF",
+    "type": "tag",
+    "attributes": [
+      {
+        "name": "weather",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "__undefined__",
+        "values": [
+          "__undefined__",
+          "clear",
+          "partly cloudy",
+          "overcast",
+          "rainy",
+          "snowy",
+          "foggy",
+          "undefined"
+        ]
+      },
+      {
+        "name": "timeofday",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "__undefined__",
+        "values": [
+          "__undefined__",
+          "daytime",
+          "dawn/dusk",
+          "night",
+          "undefined"
+        ]
+      }
+    ]
+  }
+]
